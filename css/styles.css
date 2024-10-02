@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-image: url("../img/fondoo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#container-calculator {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+#calculator{
+    height: 80%;
+    max-width: 300px;
+    margin-right: 20px;
+    background-color: rgba(95, 93, 93, 0.623);
+    border: 6px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: rgb(61, 49, 31);
+    padding: 20px;
+    box-shadow: 0 10px 20px;
+}
+
+#display {
+    width: 100%;
+    height: 56px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #1d43ee;
+    background-color: rgba(13, 27, 42, 0.8);
+    border: none;
+    box-sizing: border-box;
+}
+
+.operator{
+    background-color: rgba(51, 32, 4, 0.87);
+}
+
+#ac{
+    color: rgb(204, 4, 4);
+    width: calc(50% - 10px);
+}
+
+#de{
+    color: rgb(165, 11, 11);
+}
+.equal{
+    width: calc(75% - 10px);
+}
+
+button {
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: rgb(13, 27, 42);
+    color: #ddddddd0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(1.05);
+    box-shadow: 0 24px 4px 1px rgba(0, 0, 0, 0.19),
+    0 1.5px rgba(0, 0, 0, 0.23);
+}
+
+
+.history {
+    height: 80%;
+    width: 30%;
+    padding: 15px;
+    background-color: rgba(95, 93, 93, 0.623);
+    border: 6px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: rgb(61, 49, 31);
+    box-shadow: 0 10px 20px;
+    margin-left: 20px;
+}
+
+.history h1{
+    color: #ddddddd0;
+    font-style: italic;
+}
+
+.history ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ddddddd0; 
+    font-size: 30px; 
+}
+
+.history button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgba(204, 4, 4, 0.795);
+    color: #ddddddd0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.history button:hover {
+    background-color: rgb(165, 11, 11);
+}
+
+.history button:active {
+    transform: scale(1.05);
+    box-shadow: 0 24px 4px 1px rgba(0, 0, 0, 0.19),
+    0 1.5px rgba(0, 0, 0, 0.23);
+}
